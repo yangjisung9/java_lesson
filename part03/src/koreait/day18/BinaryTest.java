@@ -19,5 +19,6 @@ public class BinaryTest {
  *
  *	int형식은 4바이트 32비트 2진수는 32자리, 16진수로는 8자리, 10진수로는 값 범위 -2147483648~2147483647
  *												FFFFFFFF(32비트가 모두 1, 02147383648)
- *	xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ *	0xxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx		는 양수
+ *	1xxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx		는 음수
 */
